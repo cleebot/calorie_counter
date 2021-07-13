@@ -8,7 +8,7 @@ Calorie Counter is a meal tracker that will help you keep track of your meals th
 
 The wireframes below depict how the homepage will be setup, the form input for the meals that the user is logging, and the page that will keep a list of all the meals that the user has saved.
 
-![imageAlt](https://imgur.com/a/ahqyph9)
+![wireframe](https://imgur.com/a/ahqyph9)
 
 ## Component Hierarchy
 
