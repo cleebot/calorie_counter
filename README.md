@@ -14,11 +14,11 @@ The wireframes below depict how the homepage will be setup, the form input for t
 
 ## Component Hierarchy
 
-![imageAlt]()
+![components](./Components.png)
 
 ## API and Data Sample
 
-https://airtable.com/shrTv92TftYf4SVZZ
+https://airtable.com/invite/l?inviteId=invxnOzMmODUF0ozU&inviteToken=779afaa6ecda5dc07794a4334f18ed38b869c06a1878a73a62c2350381d6adcc&utm_source=email
 
 Airtable is returning the data for this base as follows:
 
@@ -26,25 +26,30 @@ Airtable is returning the data for this base as follows:
 {
     "records": [
         {
-            "id": "recjruUyWVhOO6mJP",
+            "id": "recrUTJlAhhPhovLI",
             "fields": {
-                "title": "The Godfather",
-                "rating": 5,
-                "opinion": "A classic cinematic theme executed perfectly. The acting, spearheaded by Marlon Brando, made the story memorable. "
+                "food": "chicken breast",
+                "calories": "284",
+                "carbohydrates": "0",
+                "fat": "6.2",
+                "meal of the day": "breakfast",
+                "protein": "53",
+                "date": "2021-07-13"
             },
-            "createdTime": "2020-10-09T00:27:04.000Z"
+            "createdTime": "2021-07-13T14:43:11.000Z"
         },
         {
-            "id": "rec85tP6Ra4a3JiKL",
-            "fields": {
-                "title": "Independence Day",
-                "rating": 3,
-                "opinion": "This movie was not very good in terms of cinematic quality, however it smells of nostalgia which I can't help but enjoy every July 4th. "
-            },
-            "createdTime": "2020-10-09T00:27:04.000Z"
+            "id": "rect60jYoVk0pDIv8",
+            "fields": {},
+            "createdTime": "2021-07-13T14:43:11.000Z"
+        },
+        {
+            "id": "recpJz6Uito5IniMd",
+            "fields": {},
+            "createdTime": "2021-07-13T14:43:11.000Z"
         }
     ],
-    "offset": "rec85tP6Ra4a3JiKL"
+    "offset": "recpJz6Uito5IniMd"
 }
 
 ```
