@@ -58,9 +58,9 @@ Airtable is returning the data for this base as follows:
 
 #### PostMVP
 
-- Collaborate with a UX student to make the UI more attractive/user-friendly.
-- Get and post TV and sports reviews in separate routed icon links.
-- Add a search bar to each review page to find reviews via keywords in the title.
+- Fill out API with list of common food items that will populate nutrient information for the user so user does not have to search for food items.
+- Let user be able to set a goal for their nutrient intake and if they are reaching/notreaching their goal for the day, they receive a message.
+- Create a calendar that will let users be able to click through their logged meals
 
 ## Project Schedule
 
@@ -77,40 +77,36 @@ Airtable is returning the data for this base as follows:
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable setup            |    H     |     .5hrs      |      1hr      |     1hr     |
-| Clickable icons           |    H     |      1hrs      |      1hr      |     1hr     |
-| Data population pg 1      |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data population pg 2      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Data population pg 3      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Form creation pg 1        |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Form creation pg 2        |    H     |      2hrs      |     1 hr      |    1 hr     |
-| Form creation pg 3        |    H     |      2hrs      |     1 hr      |     1hr     |
-| Data creation/update pg 1 |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data creation/update pg 2 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data creation/update pg 3 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data deletion pg 1        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 2        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 3        |    H     |      2hrs      |      1hr      |     1hr     |
-| Component CSS pg 1        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 2        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 3        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
+| Proposal                  |    H     |      2hrs      |        |        |
+| Airtable setup            |    H     |     1hrs      |            |        |
+| Component setup           |    H     |     2hrs      |         |          |
+| Component creation pg 1   |    H     |      3hrs      |         |         |
+| Component creation pg 2   |    H     |      3hrs      |           |        |
+| Component creation pg 3   |    H     |      3hrs      |           |        |
+| Form creation             |    H     |      3hrs      |          |        |
+| Navbar creation           |    H     |      3hrs      |          |         |
+| Footer creation           |    H     |      3hrs      |          |          |
+| CSS styling logged meals page |    H     |      3hrs      |          |        |
+| CSS styling form          |    H     |      3hrs      |            |         |
+| CSS styling homepage      |    H     |      3hrs      |         |          |
+| CSS styling navbar        |    H     |      2hrs      |            |         |
+| CSS styling footer        |    H     |      2hrs      |           |          |
+| Total                     |    H     |    36 hrs    |         |       |
 
 ## SWOT Analysis
 
 ### Strengths:
 
-I have a good understanding of what i want my application to look like and what exactly I want it to do. As such, I can better plan for what needs to be done and how long it will take. I also know which labs and excercise I can reference if I get lost along the way.
+I have a clear understanding of the layout and design of the website that I want to create.
 
 ### Weaknesses:
 
-I am still not terribly clear on CRUD and how to make sure I can carry each aspect out for this project. Additionally, I prefer to stick to functional components but given the parameters of the project, I'll need to use class components, as well. I will likely use most of my research time/manager help on these matters.
+I'm still a little shaky on understanding React fully, but will review the lectures and ask for help if needed when I get stuck.
 
 ### Opportunities:
 
-This project is the culmination of the last 2 weeks and will give me an opportunity to solidify my understanding of react. I also happen to be interested in the function of my app given my interests, so I am motivated to make it look usable and attractive.
+React seems to be an in demand skill for many jobs that I have seen. I want to create a smooth aesthetically clean website that I can showcase for future employers.
 
 ### Threats:
 
-Whenever I get stuck with an error or an issue, I tend to go down a rabbit hole of online searches and debugging. Often times, I don't timebox these episodes and lose a lot of time. While this is typically a favorable characteristic in a developer, I'll need to make sure I know when to ask for help.
+I tend to get caught up in trying to fix errors and this can cause me to allocate too much time in trying to fix my error by myself. I need to make sure I am not getting too caught up in errors and if I get stuck, either save it for later or reach out to peers or the teachers for help in debugging.
