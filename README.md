@@ -28,12 +28,11 @@ Airtable is returning the data for this base as follows:
         {
             "id": "recrUTJlAhhPhovLI",
             "fields": {
+                "calories": 284,
+                "protein": 53,
+                "fat": 6.2,
+                "carbohydrates": 0,
                 "food": "chicken breast",
-                "calories": "284",
-                "carbohydrates": "0",
-                "fat": "6.2",
-                "meal of the day": "breakfast",
-                "protein": "53",
                 "date": "2021-07-13"
             },
             "createdTime": "2021-07-13T14:43:11.000Z"
