@@ -10,6 +10,13 @@ const headers = { Authorization: `Bearer ${AIRTABLE_KEY}` };
 export default function MealHistory() {
   const [meals, SetMeals] = useState([]);
 
+  useEffect(() => {
+    const fetchMeals = async () => {
+      const res = await axios.get(BASE_URL, { headers });
+      console.log(res.data.records)
+    };
+    fetchMeals();
+  }, []);
   
   return (
     <div>
