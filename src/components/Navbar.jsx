@@ -8,8 +8,8 @@ export default function Navbar() {
       <Link to="/">
         Home
       </Link>
-      <Link to="/log-meal">Log Your Meal</Link>
-      <Link to="/all-meals">Meal History</Link>
+      <Link to="/logmeal">Log Your Meal</Link>
+      <Link to="/mealhistory">Meal History</Link>
     </div>
   )
 }

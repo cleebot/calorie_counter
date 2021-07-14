@@ -17,10 +17,10 @@ function App() {
         <h3>Resources</h3>
         <a href="https://www.nutritionvalue.org/">Nutrition Value</a>
         </Route>
-      <Route path="log-meal">
+      <Route exact path="/Logmeal">
         <LogMeal />
       </Route>
-      <Route path="all-meals">
+      <Route path="/MealHistory">
       <MealHistory />
       </Route>
       <Footer className="footer" />
