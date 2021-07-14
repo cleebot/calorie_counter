@@ -2,7 +2,7 @@ import './App.css';
 import { Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import LogMeal from './components/LogMeal';
+import LogMeal from './components/LogMeal.jsx';
 import MealHistory from './components/MealHistory';
 
 
