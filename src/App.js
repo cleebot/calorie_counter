@@ -1,16 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 import { Link, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import LogMeal from './components/LogMeal';
+import MealHistory from './components/MealHistory';
 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Route>
-
+      <Route exact path="/">
+      Home
+      </Route>
+      <Route path="log-your-meal">
+        <LogMeal />
+      </Route>
+      <Route path="meal-history">
+      <MealHistory />
       </Route>
       <Footer />
 
