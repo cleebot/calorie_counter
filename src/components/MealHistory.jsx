@@ -14,13 +14,14 @@ export default function MealHistory() {
     const fetchMeals = async () => {
       const res = await axios.get(BASE_URL, { headers });
       console.log(res.data.records)
+      // setMeals(res.data.records)
     };
     fetchMeals();
   }, []);
   
   return (
     <div>
-List
+    list
     </div>
   )
 }
