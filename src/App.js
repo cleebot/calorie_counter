@@ -1,5 +1,5 @@
 import './App.css';
-import { Link, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LogMeal from './components/LogMeal';
@@ -9,7 +9,7 @@ import MealHistory from './components/MealHistory';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar className="navbar" />
       <Route exact path="/">
       Home
       </Route>
@@ -19,7 +19,7 @@ function App() {
       <Route path="meal-history">
       <MealHistory />
       </Route>
-      <Footer />
+      <Footer className="footer" />
 
     </div>
   );
