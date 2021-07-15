@@ -15,7 +15,7 @@ import { useState } from 'react';
     protein: "",
   
   }
-  export default function LogMeal() {
+export default function LogMeal() {
     const [input, setInput] = useState(defaultForm);
     const history = useHistory();
   

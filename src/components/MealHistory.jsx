@@ -17,6 +17,7 @@ export default function MealHistory() {
   
   return (
     <div>
+      <h1>Keep Track of Your Meals!</h1>
       {meals.map((meal) => {
         return <div>
           <br />

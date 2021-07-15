@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LogMeal from './components/LogMeal.jsx';
 import MealHistory from './components/MealHistory';
+import DietInfo from './components/DietInfo';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </Route>
       <Route path="/MealHistory">
       <MealHistory />
+      </Route>
+      <Route path="/dietinfo">
+        <DietInfo />
       </Route>
       <Footer className="footer" />
 
