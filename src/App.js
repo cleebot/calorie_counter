@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import LogMeal from './components/LogMeal.jsx';
 import MealHistory from './components/MealHistory';
 
-
 function App() {
   return (
     <div className="App">

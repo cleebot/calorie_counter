@@ -7,17 +7,17 @@ import { useState } from 'react';
 
 
   const defaultForm = {
-    date: '',
-    food: '',
-    calories: '',
-    carbohydrates: '',
-    fat: '',
-    protein: '',
+    food: "",
+    date: "",
+    calories: "",
+    carbohydrates: "",
+    fat: "",
+    protein: "",
   
   }
   export default function LogMeal() {
     const [input, setInput] = useState(defaultForm);
-    const history = useHistory;
+    const history = useHistory();
   
     const handleChange = (event) => {
       const { id, value } = event.target;
@@ -33,7 +33,7 @@ import { useState } from 'react';
       e.preventDefault();
       const res = await axios.post(BASE_URL, { fields: input }, { headers });
       console.log(res);
-      history.push("/meal-history");
+      history.push("/Mealhistory");
     };
   
   
