@@ -42,41 +42,41 @@ import { useState } from 'react';
         <h2>Add New Food Item</h2>
         <form onSubmit={handleSubmit}>
           <br />
-          <label>Food</label>
+          <label>Food</label><br />
           <input name="food"
             value={input.food}
             onChange={handleChange}
             placeholder="food"
           />
           <br />
-          <label>Date</label>
+          <label>Date</label><br />
           <input name="date"
             value={input.date}
             onChange={handleChange}
             placeholder="date" />
           <br />
-          <label>Calories</label>
+          <label>Calories</label><br />
           <input name="calories"
             value={input.calories}
             onChange={handleChange}
             placeholder="calories"
           />
           <br />
-          <label>Carbohydrates</label>
+          <label>Carbohydrates</label><br />
           <input name="carbohydrates"
             value={input.carbohydrates}
             onChange={handleChange}
             placeholder="carbohydrates"
           />
           <br />
-          <label>Fat</label>
+          <label>Fat</label><br />
           <input name="fat"
             value={input.fat}
             onChange={handleChange}
             placeholder="fat"
           />
           <br />
-          <label>Protein</label>
+          <label>Protein</label><br />
           <input name="protein"
             value={input.protein}
             onChange={handleChange}
