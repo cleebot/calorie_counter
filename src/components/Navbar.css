@@ -2,6 +2,11 @@
   text-align: right;
 }
 
+.navbarlink{
+  margin: 5px;
+  text-decoration: none;
+}
+
 ul{
   /* padding: 0; */
   /* display: flex; */

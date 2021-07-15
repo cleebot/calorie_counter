@@ -40,7 +40,7 @@ export default function LogMeal() {
     return (
       <div>
         <h2>Add New Food Item</h2>
-        <form onSubmit={handleSubmit}>
+        <form className="form" onSubmit={handleSubmit}>
           <br />
           <label>Food</label><br />
           <input name="food"
