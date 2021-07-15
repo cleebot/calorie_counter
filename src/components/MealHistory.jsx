@@ -18,7 +18,13 @@ export default function MealHistory() {
   return (
     <div>
       {meals.map((meal) => {
-        return <div>{meal.fields.food}</div>;
+        return <div>
+          <p>food: {meal.fields.food}</p>
+          <p>calories: {meal.fields.calories} grams</p>
+          <p>carbohydrates: {meal.fields.carbohydrates} grams</p>
+          <p>fat: {meal.fields.fat} grams</p>
+          <p>protein: {meal.fields.protein} grams</p>
+        </div>;
     })}
     </div>
   )
