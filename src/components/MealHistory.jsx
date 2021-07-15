@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BASE_URL, headers } from "../services";
+import MealCard from "./MealCard";
 
 
 
@@ -19,15 +20,16 @@ export default function MealHistory() {
     <div>
       <h1>Keep Track of Your Meals!</h1>
       {meals.map((meal) => {
-        return <div>
-          <br />
-          <p>food: {meal.fields.food}</p>
-          <p>calories: {meal.fields.calories}</p>
-          <p>carbohydrates: {meal.fields.carbohydrates} grams</p>
-          <p>fat: {meal.fields.fat} grams</p>
-          <p>protein: {meal.fields.protein} grams</p>
-          <br />
-        </div>;
+        return <MealCard meal={meal}/>;
+        // <div>
+        //   <br />
+        //   <p>food: {meal.fields.food}</p>
+        //   <p>calories: {meal.fields.calories}</p>
+        //   <p>carbohydrates: {meal.fields.carbohydrates} grams</p>
+        //   <p>fat: {meal.fields.fat} grams</p>
+        //   <p>protein: {meal.fields.protein} grams</p>
+        //   <br />
+        // </div>;
     })}
     </div>
   )
