@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function MealCard(props) {
   return (
     // <Link to={`/meals/${props.meal.div}`}>
-    <div>
+    <div className="card">
        <br />
       <p>Food: {props.meal.fields.food}</p>
       <p>Calories: {props.meal.fields.calories}</p>

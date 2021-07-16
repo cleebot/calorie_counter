@@ -43,41 +43,41 @@ export default function LogMeal() {
         <form className="form" onSubmit={handleSubmit}>
           <br />
           <label>Food</label><br />
-          <input name="food"
+          <input id="food"
             value={input.food}
             onChange={handleChange}
             placeholder="food"
           />
           <br />
           <label>Date</label><br />
-          <input name="date"
+          <input id="date"
             value={input.date}
             onChange={handleChange}
             placeholder="date" />
           <br />
           <label>Calories</label><br />
-          <input name="calories"
+          <input id="calories"
             value={input.calories}
             onChange={handleChange}
             placeholder="calories"
           />
           <br />
           <label>Carbohydrates</label><br />
-          <input name="carbohydrates"
+          <input id="carbohydrates"
             value={input.carbohydrates}
             onChange={handleChange}
             placeholder="carbohydrates"
           />
           <br />
           <label>Fat</label><br />
-          <input name="fat"
+          <input id="fat"
             value={input.fat}
             onChange={handleChange}
             placeholder="fat"
           />
           <br />
           <label>Protein</label><br />
-          <input name="protein"
+          <input id="protein"
             value={input.protein}
             onChange={handleChange}
             placeholder="protein"
