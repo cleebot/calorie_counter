@@ -61,6 +61,7 @@ export default function LogMeal() {
     };
   
   
+  
   return (
       <div>
         <h2>Add New Food Item</h2>
