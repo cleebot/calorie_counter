@@ -3,25 +3,30 @@ import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import { BASE_URL, headers } from '../services';
 import { useState } from 'react';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 
 
   const defaultForm = {
     food: "",
-    date: "",
-    calories: "",
-    carbohydrates: "",
-    fat: "",
-    protein: "",
+    date: new Date(),
+    calories: 0,
+    carbohydrates: 0,
+    fat: 0,
+    protein: 0,
   
   }
+
 export default function LogMeal() {
     const [input, setInput] = useState(defaultForm);
     const history = useHistory();
   
     const handleChange = (event) => {
       const { id, value } = event.target;
-      console.log(id, value, input)
+      // console.log(id, value, input)
+
+    
   
       setInput((prevInput) => ({
         ...prevInput,
@@ -29,6 +34,25 @@ export default function LogMeal() {
       }));
     };
   
+  const handleDateChange = (date) => {
+    setInput((prevInput) => ({
+      ...prevInput,
+      date: date,
+    }));
+  }
+  
+    const handleNumberChange = (event) => {
+      const { id, valueAsNumber } = event.target;
+      // console.log(id, value, input)
+
+    
+  
+      setInput((prevInput) => ({
+        ...prevInput,
+        [id]: valueAsNumber,
+      }));
+    };
+    
     const handleSubmit = async (e) => {
       e.preventDefault();
       const res = await axios.post(BASE_URL, { fields: input }, { headers });
@@ -37,7 +61,7 @@ export default function LogMeal() {
     };
   
   
-    return (
+  return (
       <div>
         <h2>Add New Food Item</h2>
         <form className="form" onSubmit={handleSubmit}>
@@ -50,36 +74,37 @@ export default function LogMeal() {
           />
           <br />
           <label>Date</label><br />
-          <input id="date"
+          {/* <input id="date"
             value={input.date}
             onChange={handleChange}
-            placeholder="date" />
+            placeholder="month/date/year" /> */}
+        <DatePicker selected={input.date} onChange={handleDateChange} />
           <br />
           <label>Calories</label><br />
           <input id="calories"
             value={input.calories}
-            onChange={handleChange}
+            onChange={handleNumberChange}
             placeholder="calories"
           />
           <br />
           <label>Carbohydrates</label><br />
           <input id="carbohydrates"
             value={input.carbohydrates}
-            onChange={handleChange}
+            onChange={handleNumberChange}
             placeholder="carbohydrates"
           />
           <br />
           <label>Fat</label><br />
           <input id="fat"
             value={input.fat}
-            onChange={handleChange}
+            onChange={handleNumberChange}
             placeholder="fat"
           />
           <br />
           <label>Protein</label><br />
           <input id="protein"
             value={input.protein}
-            onChange={handleChange}
+            onChange={handleNumberChange}
             placeholder="protein"
           />
           <br />
