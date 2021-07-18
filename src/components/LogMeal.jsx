@@ -83,13 +83,15 @@ export default function LogMeal() {
           <br /> */}
           <label>Calories</label><br />
           <input id="calories"
+            type="number"
             value={input.calories}
-            onChange={parseInt(handleNumberChange)}
+            onChange={handleNumberChange}
             placeholder="calories"
           />
           <br />
           <label>Carbohydrates</label><br />
           <input id="carbohydrates"
+            type="number"
             value={input.carbohydrates}
             onChange={handleNumberChange}
             placeholder="carbohydrates"
@@ -97,13 +99,15 @@ export default function LogMeal() {
           <br />
           <label>Fat</label><br />
           <input id="fat"
+            type="number"
             value={input.fat}
             onChange={handleNumberChange}
             placeholder="fat"
           />
           <br />
           <label>Protein</label><br />
-          <input id="protein"
+        <input id="protein"
+            type="number"
             value={input.protein}
             onChange={handleNumberChange}
             placeholder="protein"
