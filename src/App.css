@@ -1,6 +1,7 @@
 body{
   font-family: Oswald;
   background-color: #E3C6D6;
+  background-image: ""
 }
 
 .App {
@@ -8,22 +9,4 @@ body{
 }
 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: right;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-}

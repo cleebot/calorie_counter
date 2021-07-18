@@ -3,8 +3,8 @@ import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import { BASE_URL, headers } from '../services';
 import { useState } from 'react';
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css";
 
 
 
@@ -34,12 +34,12 @@ export default function LogMeal() {
       }));
     };
   
-  const handleDateChange = (date) => {
-    setInput((prevInput) => ({
-      ...prevInput,
-      date: date,
-    }));
-  }
+  // const handleDateChange = (date) => {
+  //   setInput((prevInput) => ({
+  //     ...prevInput,
+  //     date: date,
+  //   }));
+  // }
   
     const handleNumberChange = (event) => {
       const { id, valueAsNumber } = event.target;
@@ -74,17 +74,17 @@ export default function LogMeal() {
             placeholder="food"
           />
           <br />
-          <label>Date</label><br />
+          {/* <label>Date</label><br /> */}
           {/* <input id="date"
             value={input.date}
             onChange={handleChange}
             placeholder="month/date/year" /> */}
-        <DatePicker selected={input.date} onChange={handleDateChange} />
-          <br />
+        {/* <DatePicker selected={input.date} onChange={handleDateChange} />
+          <br /> */}
           <label>Calories</label><br />
           <input id="calories"
             value={input.calories}
-            onChange={handleNumberChange}
+            onChange={parseInt(handleNumberChange)}
             placeholder="calories"
           />
           <br />
