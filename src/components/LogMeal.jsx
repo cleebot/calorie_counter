@@ -114,7 +114,8 @@ export default function LogMeal() {
             placeholder="protein"
           />
           <br />
-          <button className="button">Submit Meal</button>
+        <button className="button">Submit Meal</button>
+        <br />
         </form>
       </div>
     );
