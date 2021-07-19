@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import { BASE_URL, headers } from '../services';
 import { useState } from 'react';
+import "./Form.css";
 // import DatePicker from "react-datepicker";
 // import "react-datepicker/dist/react-datepicker.css";
 
@@ -10,7 +11,7 @@ import { useState } from 'react';
 
   const defaultForm = {
     food: "",
-    date: new Date(),
+    // date: new Date(),
     calories: 0,
     carbohydrates: 0,
     fat: 0,
@@ -113,7 +114,7 @@ export default function LogMeal() {
             placeholder="protein"
           />
           <br />
-          <button>Submit Meal</button>
+          <button className="button">Submit Meal</button>
         </form>
       </div>
     );

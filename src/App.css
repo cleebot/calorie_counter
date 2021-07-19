@@ -2,11 +2,19 @@ body{
   font-family: Oswald;
   background-color: #E3C6D6;
   background-image: ""
+  
 }
 
 .App {
   text-align: center;
 }
 
+
+
+@media only screen and (max-width:600px){
+  body{
+    font-size: 75%;
+  }
+  }
 
 
