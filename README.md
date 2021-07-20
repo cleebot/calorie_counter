@@ -68,23 +68,23 @@ Airtable is returning the data for this base as follows:
 
 ## Timeframes
 
-| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |    3 hrs    |        |
-| Airtable setup            |    H     |     1hrs      |   1 hr     |        |
-| Component setup           |    H     |     2hrs      |    3 hrs     |          |
-| Component creation pg 1   |    H     |      3hrs      |  3 hrs    |         |
-| Component creation pg 2   |    H     |      3hrs      |  3 hrs    |        |
-| Component creation pg 3   |    H     |      3hrs      | 4 hrs    |        |
-| Form creation             |    H     |      3hrs      |  5 hrs    |        |
-| Navbar creation           |    H     |      3hrs      |   2 hrs   |         |
-| Footer creation           |    H     |      3hrs      |   2 hrs  |          |
-| CSS styling logged meals page |    H     |      3hrs      |          |        |
-| CSS styling form          |    H     |      3hrs      |   3 hrs   |         |
-| CSS styling homepage      |    H     |      3hrs      |   2 hrs  |          |
-| CSS styling navbar        |    H     |      2hrs      |   2 hrs  |         |
-| CSS styling footer        |    H     |      2hrs      |   2 hrs  |          |
-| Total                     |    H     |    36 hrs    |      38 hrs   |       |
+| Component                 | Priority | Estimated Time | Time Invested |
+| ------------------------- | :------: | :------------: | :-----------: | 
+| Proposal                  |    H     |      2hrs      |    3 hrs    |
+| Airtable setup            |    H     |     1hrs      |   1 hr     | 
+| Component setup           |    H     |     2hrs      |    3 hrs     |
+| Component creation pg 1   |    H     |      3hrs      |  3 hrs    |
+| Component creation pg 2   |    H     |      3hrs      |  3 hrs    |
+| Component creation pg 3   |    H     |      3hrs      | 4 hrs    |
+| Form creation             |    H     |      3hrs      |  5 hrs    |
+| Navbar creation           |    H     |      3hrs      |   2 hrs   |
+| Footer creation           |    H     |      3hrs      |   2 hrs  |
+| CSS styling logged meals page |    H     |      3hrs      | 3 hrs  |
+| CSS styling form          |    H     |      3hrs      |   3 hrs   |
+| CSS styling homepage      |    H     |      3hrs      |   2 hrs  |
+| CSS styling navbar        |    H     |      2hrs      |   2 hrs  |
+| CSS styling footer        |    H     |      2hrs      |   2 hrs  | 
+| Total                     |    H     |    36 hrs    |      38 hrs   |
 
 ## SWOT Analysis
 

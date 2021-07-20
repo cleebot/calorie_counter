@@ -49,7 +49,7 @@ export default function LogMeal() {
     const handleSubmit = async (e) => {
       e.preventDefault();
       const res = await axios.post(BASE_URL, { fields: input }, { headers });
-      console.log(res);
+      console.log(res)
       history.push("/Mealhistory");
     };
   
