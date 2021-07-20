@@ -9,11 +9,11 @@ export default function DietInfo() {
       <p><b>Atkins Diet</b>: <br />
         The Atkins diet's main idea is to eat lots of protein while consuming very little carbohydrates. Studies have shown that the Atkins diet is goood for weight loss and improvemnets in blood sugar and triglycerides.
         For a more detailed look into the diet plan, please check out the resources below.<br />
-        <a href="https://www.healthline.com/nutrition/atkins-diet-101#foods-to-avoid/">Atkin's Diet</a></p><br />
+        <a href="https://www.healthline.com/nutrition/atkins-diet-101#foods-to-avoid/" target="_blank" rel="noreferrer">Atkin's Diet</a></p><br />
       <p><b>Intermittent Fasting</b>:<br />
         Intermittent fasting is a very popular diet that usually consists of a cycle of eating and fasting. A very popular variation is eating for 8 hours, and fasting for 16 hours during a day. Many people are mindful of their caloric intake and
         amount of carbohydrates they are eating as well. For more information on different methods of intermittent fasting, check the resource below!<br />
-        <a href="https://www.healthline.com/nutrition/atkins-diet-101#foods-to-avoid/">Intermittent Fasting</a>
+        <a href="https://www.healthline.com/nutrition/intermittent-fasting-guide" target="_blank" rel="noreferrer">Intermittent Fasting</a>
       </p>
     </div>
   )

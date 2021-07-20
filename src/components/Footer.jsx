@@ -8,8 +8,8 @@ export default function Footer() {
   return (
     <div className="footer">
       Caleb Lee
-      <a href="https://github.com/cleebot"><FontAwesomeIcon icon={faGithub} className="git" target="_blank" /></a>
-      <a href="https://linkedin.com/in/caleblee92"><FontAwesomeIcon icon={faLinkedin} className="git" target="_blank"/></a>
+      <a href="https://github.com/cleebot" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className="git" /></a>
+      <a href="https://linkedin.com/in/caleblee92" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className="git"/></a>
     </div>
   )
 }

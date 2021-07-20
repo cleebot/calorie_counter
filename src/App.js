@@ -21,7 +21,7 @@ function App() {
         </h4>
         <h3>Resources</h3>
         If you need resources to check nutritional values of the food that you are eating, please check the links below!<br />
-        <a href="https://www.nutritionvalue.org/">Nutrition Value</a>
+        <a href="https://www.nutritionvalue.org/" target="_blank" rel="noreferrer">Nutrition Value</a>
         </Route>
       <Route exact path="/Logmeal">
         <LogMeal />
