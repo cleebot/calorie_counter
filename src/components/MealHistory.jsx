@@ -21,15 +21,6 @@ export default function MealHistory() {
     <h1>Keep Track of Your Meals!</h1>
     {meals.map((meals) => {
       return <MealCard key={meals.id} meals={meals}/>;
-         // <div>
-         //   <br />
-         //   <p>food: {meal.fields.food}</p>
-         //   <p>calories: {meal.fields.calories}</p>
-         //   <p>carbohydrates: {meal.fields.carbohydrates} grams</p>
-         //   <p>fat: {meal.fields.fat} grams</p>
-         //   <p>protein: {meal.fields.protein} grams</p>
-         //   <br />
-         // </div>;
   })}
   </div>
   )

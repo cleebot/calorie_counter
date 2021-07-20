@@ -33,23 +33,10 @@ Airtable is returning the data for this base as follows:
                 "fat": 6.2,
                 "carbohydrates": 0,
                 "food": "chicken breast",
-                "date": "2021-07-13"
+                "date": "7/13/2021"
             },
             "createdTime": "2021-07-13T14:43:11.000Z"
-        },
-        {
-            "id": "rect60jYoVk0pDIv8",
-            "fields": {},
-            "createdTime": "2021-07-13T14:43:11.000Z"
-        },
-        {
-            "id": "recpJz6Uito5IniMd",
-            "fields": {},
-            "createdTime": "2021-07-13T14:43:11.000Z"
         }
-    ],
-    "offset": "recpJz6Uito5IniMd"
-}
 
 ```
 
@@ -72,32 +59,32 @@ Airtable is returning the data for this base as follows:
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Jul 13   | Proposal Approval / Airtable Setup         | Incomplete |
-| Jul 14   | Component Creation / Get, Set Data         | Incomplete |
-| Jul 15   | Continue with React, Begin with CSS styling| Incomplete |
-| Jul 16   | Reach MVP                                  | Incomplete |
-| Jul 17-18| Advanced CSS, begin Post-MVP               | Incomplete |
+| Jul 13   | Proposal Approval / Airtable Setup         | Complete |
+| Jul 14   | Component Creation / Get, Set Data         | Complete|
+| Jul 15   | Continue with React, Begin with CSS styling| Complete |
+| Jul 16   | Reach MVP                                  | Complete |
+| Jul 17-18| Advanced CSS, begin Post-MVP               | Complete |
 | Jul 19   | Presentations                              | Incomplete |
 
 ## Timeframes
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |        |        |
-| Airtable setup            |    H     |     1hrs      |            |        |
-| Component setup           |    H     |     2hrs      |         |          |
-| Component creation pg 1   |    H     |      3hrs      |         |         |
-| Component creation pg 2   |    H     |      3hrs      |           |        |
-| Component creation pg 3   |    H     |      3hrs      |           |        |
-| Form creation             |    H     |      3hrs      |          |        |
-| Navbar creation           |    H     |      3hrs      |          |         |
-| Footer creation           |    H     |      3hrs      |          |          |
+| Proposal                  |    H     |      2hrs      |    3 hrs    |        |
+| Airtable setup            |    H     |     1hrs      |   1 hr     |        |
+| Component setup           |    H     |     2hrs      |    3 hrs     |          |
+| Component creation pg 1   |    H     |      3hrs      |  3 hrs    |         |
+| Component creation pg 2   |    H     |      3hrs      |  3 hrs    |        |
+| Component creation pg 3   |    H     |      3hrs      | 4 hrs    |        |
+| Form creation             |    H     |      3hrs      |  5 hrs    |        |
+| Navbar creation           |    H     |      3hrs      |   2 hrs   |         |
+| Footer creation           |    H     |      3hrs      |   2 hrs  |          |
 | CSS styling logged meals page |    H     |      3hrs      |          |        |
-| CSS styling form          |    H     |      3hrs      |            |         |
-| CSS styling homepage      |    H     |      3hrs      |         |          |
-| CSS styling navbar        |    H     |      2hrs      |            |         |
-| CSS styling footer        |    H     |      2hrs      |           |          |
-| Total                     |    H     |    36 hrs    |         |       |
+| CSS styling form          |    H     |      3hrs      |   3 hrs   |         |
+| CSS styling homepage      |    H     |      3hrs      |   2 hrs  |          |
+| CSS styling navbar        |    H     |      2hrs      |   2 hrs  |         |
+| CSS styling footer        |    H     |      2hrs      |   2 hrs  |          |
+| Total                     |    H     |    36 hrs    |      38 hrs   |       |
 
 ## SWOT Analysis
 

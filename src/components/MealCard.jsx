@@ -3,7 +3,6 @@ import "./Mealcard.css";
 
 export default function MealCard(props) {
   return (
-    // <Link to={`/meals/${props.meal.div}`}>
     <div className="card" key={props.id}>
        <br />
       <p>Food: {props.meals.fields.food}</p>
@@ -13,6 +12,5 @@ export default function MealCard(props) {
       <p>Protein: {props.meals.fields.protein} grams </p>
       <br />
     </div>
-    // </Link>
   )
 }

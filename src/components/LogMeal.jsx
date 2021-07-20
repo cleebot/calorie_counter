@@ -4,14 +4,11 @@ import { useHistory } from 'react-router-dom';
 import { BASE_URL, headers } from '../services';
 import { useState } from 'react';
 import "./Form.css";
-// import DatePicker from "react-datepicker";
-// import "react-datepicker/dist/react-datepicker.css";
 
 
 
   const defaultForm = {
     food: "",
-    // date: new Date(),
     calories: 0,
     carbohydrates: 0,
     fat: 0,
@@ -25,7 +22,7 @@ export default function LogMeal() {
   
     const handleChange = (event) => {
       const { id, value } = event.target;
-      // console.log(id, value, input)
+      
 
     
   
@@ -35,16 +32,11 @@ export default function LogMeal() {
       }));
     };
   
-  // const handleDateChange = (date) => {
-  //   setInput((prevInput) => ({
-  //     ...prevInput,
-  //     date: date,
-  //   }));
-  // }
+
   
     const handleNumberChange = (event) => {
       const { id, valueAsNumber } = event.target;
-      // console.log(id, value, input)
+      
 
     
   
@@ -75,13 +67,6 @@ export default function LogMeal() {
             placeholder="food"
           />
           <br />
-          {/* <label>Date</label><br /> */}
-          {/* <input id="date"
-            value={input.date}
-            onChange={handleChange}
-            placeholder="month/date/year" /> */}
-        {/* <DatePicker selected={input.date} onChange={handleDateChange} />
-          <br /> */}
           <label>Calories</label><br />
           <input id="calories"
             type="number"
