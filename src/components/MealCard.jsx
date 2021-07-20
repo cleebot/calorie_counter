@@ -1,5 +1,5 @@
 import React from 'react';
-import "./MealCard.css";
+import "./Mealcard.css";
 
 export default function MealCard(props) {
   return (
