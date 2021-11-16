@@ -65,7 +65,7 @@ Airtable is returning the data for this base as follows:
 | Jul 15   | Continue with React, Begin with CSS styling| Complete |
 | Jul 16   | Reach MVP                                  | Complete |
 | Jul 17-18| Advanced CSS, begin Post-MVP               | Complete |
-| Jul 19   | Presentations                              | Incomplete |
+| Jul 19   | Presentations                              | Complete |
 
 ## Timeframes
 
